@@ -10,7 +10,7 @@ public class East extends Road {
     @Override
     public String display() {
         StringBuilder display = new StringBuilder();
-        int output = 0;
+        int output;
         //display a 0 if the road position is empty, or 1 if occupied by a vehicle
 
         output = (roadMap.get(0) == null) ? 0 : 1;
@@ -27,12 +27,4 @@ public class East extends Road {
         }
         return display.toString();
     }
-//    @Override
-//    public String display() {
-//        StringBuilder display = new StringBuilder();
-//        display.append("       ").append(roadMap.get(0))
-//                .append(roadMap.get(1)).append(roadMap.get(2)).append(roadMap.get(3)).append(roadMap.get(4)).append(roadMap.get(5) + "\n");
-//        display.append("        ").append(roadMap.get(-1)).append(roadMap.get(-2)).append(roadMap.get(-3)).append(roadMap.get(-4)).append(roadMap.get(-5));
-//        return display.toString();
-//    }
 }
