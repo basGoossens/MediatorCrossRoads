@@ -1,5 +1,6 @@
 package mediatorAssignment.mediator;
 
+import mediatorAssignment.Car.Car;
 import mediatorAssignment.components.*;
 
 import java.util.ArrayList;
@@ -48,7 +49,7 @@ public class Crossroads implements Mediator {
 
         //check to see if the crossroads is empty
         List<Road> roads = new ArrayList<>();
-        crossroadPosition.forEach((k,v) -> roads.add((Road) k));
+        crossroadPosition.forEach((k,v) -> roads.add(k));
         for (Road r : roads) if (r.getRoadMap().get(0) != null && r.getRoadMap().get(0) != car) check = false;
         return check;
     }

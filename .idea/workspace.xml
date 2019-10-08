@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b10449ff-d86b-4c9b-9ee8-0ca951bb5f5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="b10449ff-d86b-4c9b-9ee8-0ca951bb5f5a" name="Default Changelist" comment="Component Car&#10;Main-display in separate loop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mediatorAssignment/components/East.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mediatorAssignment/components/East.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mediatorAssignment/components/North.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mediatorAssignment/components/North.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MediatorCrossRoads/mediatorAssignment/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MediatorCrossRoads/mediatorAssignment/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MediatorCrossRoads/mediatorAssignment/components/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MediatorCrossRoads/mediatorAssignment/components/East.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MediatorCrossRoads/mediatorAssignment/components/East.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MediatorCrossRoads/mediatorAssignment/components/North.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MediatorCrossRoads/mediatorAssignment/components/North.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MediatorCrossRoads/mediatorAssignment/components/Road.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MediatorCrossRoads/mediatorAssignment/components/Road.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MediatorCrossRoads/mediatorAssignment/components/South.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MediatorCrossRoads/mediatorAssignment/components/South.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MediatorCrossRoads/mediatorAssignment/components/West.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MediatorCrossRoads/mediatorAssignment/components/West.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MediatorCrossRoads/mediatorAssignment/mediator/Crossroads.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MediatorCrossRoads/mediatorAssignment/mediator/Crossroads.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MediatorCrossRoads/mediatorAssignment/mediator/Mediator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MediatorCrossRoads/mediatorAssignment/mediator/Mediator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mediatorAssignment/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mediatorAssignment/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mediatorAssignment/components/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mediatorAssignment/Car/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mediatorAssignment/components/Road.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mediatorAssignment/components/Road.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mediatorAssignment/mediator/Crossroads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mediatorAssignment/mediator/Crossroads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mediatorAssignment/mediator/Mediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mediatorAssignment/mediator/Mediator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +48,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MediatorVoorbeeldInternet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -97,8 +108,19 @@
       <workItem from="1569826116879" duration="3581000" />
       <workItem from="1569830009051" duration="13373000" />
       <workItem from="1569930287733" duration="925000" />
-      <workItem from="1570000601827" duration="40216000" />
+      <workItem from="1570000601827" duration="41022000" />
+      <workItem from="1570391152300" duration="471000" />
+      <workItem from="1570536529154" duration="829000" />
+      <workItem from="1570542866990" duration="892000" />
     </task>
+    <task id="LOCAL-00001" summary="removed dead code">
+      <created>1570365237411</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570365237411</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,18 +131,25 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="removed dead code" />
+    <MESSAGE value="Component Car&#10;Main-display in separate loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Component Car&#10;Main-display in separate loop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/mediatorAssignment/mediator/Crossroads.java</url>
-          <line>49</line>
+          <line>50</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>

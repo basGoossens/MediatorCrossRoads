@@ -1,8 +1,9 @@
-package mediatorAssignment.components;
+package mediatorAssignment.Car;
+
+import mediatorAssignment.components.Road;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 public class Car {
 

@@ -1,5 +1,6 @@
 package mediatorAssignment;
 
+import mediatorAssignment.Car.Car;
 import mediatorAssignment.components.*;
 import mediatorAssignment.mediator.Mediator;
 import mediatorAssignment.mediator.Crossroads;
@@ -23,10 +24,8 @@ public class Main {
             int random = (int) (Math.random() * roads.size());
             Car.newCar(roads.get(random));
 
-            for (Road r : roads){
-                r.moveAllVehicles();
-                System.out.println(r.display());
-            }
+            for (Road r : roads) r.moveAllVehicles();
+            for (Road r : roads) System.out.println(r.display());
 
             crossing.setGreenLight();
 

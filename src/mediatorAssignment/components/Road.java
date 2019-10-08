@@ -1,10 +1,8 @@
 package mediatorAssignment.components;
 
+import mediatorAssignment.Car.Car;
 import mediatorAssignment.mediator.Mediator;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Map;
 import java.util.TreeMap;
 
 public abstract class Road {

@@ -1,6 +1,6 @@
 package mediatorAssignment.mediator;
 
-import mediatorAssignment.components.Car;
+import mediatorAssignment.Car.Car;
 import mediatorAssignment.components.Road;
 
 import java.util.Map;
